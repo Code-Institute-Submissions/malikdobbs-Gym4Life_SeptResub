@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+.welcome-container {
+    height: 100vh;
+    background: url("../images/dumbell-guy.jpg") no-repeat center right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.20);
+}
