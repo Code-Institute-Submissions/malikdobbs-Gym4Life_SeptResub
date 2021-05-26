@@ -13,6 +13,28 @@
     <title>Gym 4 Life</title>
 </head>
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-sm">
+        <a href="#" class="navbar-brand">Gym4Life</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto justify-content-end">
+                <li class="active nav-item mr-2"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#">Classes</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#">Membership</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#">Personal Training</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#">About Us</a></li>
+            </ul>
+        </div>
+        <div class="d-none d-md-block">
+                <a href="/login" class="btn btn--cta btn--green btn--header">Join Now</a>
+        </div>
+    </nav>
+    <!-- /Navbar -->
+    <!-- Welcome -->
     <div class="container-fluid welcome-container">
         <div class="opaque-overlay">&nbsp;</div>
             <div class="row">
@@ -20,14 +42,15 @@
                     <section class="Welcome jumbotron text-center">
                         <h1 class="jumbotron-header">No Joining Fee</h1>
                         <h3 class="jumbotron-header">No Contract/Cancel Anytime You Like</h3>
-                        <hr class="block-divider block-divider--gold">
                         <p class="lead">Limited Time Only</p>
                         <br>
-                        <p><button class="btn btn-lg btn--cta btn--orange" data-toggle="modal" data-target="#signUpModal">Join Now</button></p>
+                        <p><button class="btn btn-lg btn--cta btn--green" data-toggle="modal" data-target="#signUpModal">Join Now</button></p>
                         <p class="text-muted"><small>You Must be at least 16 to sign up to our service</small></p>
+                        <p class="text-muted"><small>T&C's Apply</small></p>
                     </section>
                 </div>
             </div>
     </div>
+    <!-- /Welcome -->
 </body>
 </html>
