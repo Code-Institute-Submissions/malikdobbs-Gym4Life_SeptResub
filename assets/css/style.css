@@ -404,6 +404,14 @@ hr {
         height: 100%;
     }
 
+    .fight-class {
+        background-image: url("../images/boxing-girl.jpg");
+   
+        background-size: cover;
+        background-repeat: no-repeat no-repeat;
+        height: 100%;
+    }
+
     .cardio-class-bg {
         background-color: #ff4c4c;
     }
@@ -414,6 +422,10 @@ hr {
 
     .mind-body-class-bg {
         background-color: #14FFB0;
+    }
+
+    .fight-class-bg {
+        background-color: #869697;
     }
 
     .section-heading-cardio {
@@ -452,6 +464,20 @@ hr {
     }
 
     .mind-body-section {
+        text-align: center;
+        color: #fafafa;
+        font-size: 18px;
+        padding: 30px;
+    }
+
+    .section-heading-fight {
+        color: #fafafa;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .fight-section {
         text-align: center;
         color: #fafafa;
         font-size: 18px;
