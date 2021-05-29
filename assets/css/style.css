@@ -23,6 +23,29 @@ body {
     justify-content: center;
 
     position: relative;
+    z-index: 2;
+}
+
+.hero-image {
+    height: 70vh;
+    background: url("../images/group-plank.jpg") no-repeat center right fixed; 
+    background-color: rgba(0, 0, 0, 0.25);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative; 
+    z-index: -2;
 }
 
 .opaque-overlay {
@@ -31,7 +54,19 @@ body {
     left:0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: -1;
+}
+
+.class-categories {
+   top: 50%;
+   right: 50%;
+  margin: auto;
+   
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* Block dividers */
@@ -54,16 +89,6 @@ body {
 }
 
 /* Navbar */
-
-.navalert-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
-}
-
 .navbar {
     margin-bottom: 0;
     border: 0;
@@ -71,7 +96,7 @@ body {
     background-color: #fffff0;
     position: fixed; /* Set the navbar to fixed position */
     top: 0;
-    z-index: 1;
+    z-index: 3;
 }
 
 .navbar .navbar-toggler {
@@ -163,6 +188,16 @@ body {
     float: left;
 }
 
+/* Classes Hero Image */
+
+.cover-text  {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 55px;
+    margin-bottom: 260px;
+    margin-right: 1175px;
+}
+
 /* Covid Section */
 
 #covid-section {
@@ -221,7 +256,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    margin-top: 140px;
+    
 }
 
 .right-about-heading-lower h2 {
@@ -337,6 +372,35 @@ hr {
         text-align: left;
     }
 
+    /* Class Categories */
+
+    .cardio-class {
+        height: 65vh;
+        background: url("../images/spin.jpeg") no-repeat center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative; 
+    }
+
+    .cardio-class-bg {
+        background-color: #ff4c4c;
+    }
+
+    .strength-class-bg {
+        background-color: #00308f;
+    }
+
     /* Footer */
 
     footer {
@@ -383,3 +447,97 @@ hr {
     #footer-details {
         padding: 20px;
     }
+
+    /* Media queries */
+    /* for large to medium screen sizes. from 1200px wide and down */
+@media screen and (max-width: 1393px){
+    
+    .welcome-container {
+        width: 100%;
+    }
+    
+    #covid-section{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome{
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #left-about, #right-about{
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about{
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #gym-info div{
+        width: 100%;
+        clear: both;
+        height: 150%;
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #fffff0;
+        padding: 0;
+    }
+
+    #circle-cover-bg {
+        margin: 0 auto;
+    }
+}
+
+/* for medium screens sizes from 950px wide and down */
+@media screen and (max-width: 943px) {
+    .navbar-brand{
+        clear: left;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 5px;
+        line-height: 5px;
+    }
+
+    #cover-text{
+        left: 0px;
+    }
+
+    #club-ethos{
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading{
+        width: inherit;
+    }
+
+    .left-about-heading h3, .right-about-heading h3, .right-about-heading-lower, h3{
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p, .right-about-heading-lower p{
+        text-align: center;
+        padding: 0 20 0 20;
+    }
+
+    #photo{
+        column-count: 3;
+    }
+
+}
+
+/* for small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+    #photo{
+        column-count: 2;
+    }
+}
