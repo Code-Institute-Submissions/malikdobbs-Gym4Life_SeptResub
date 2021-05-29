@@ -69,6 +69,11 @@ body {
     text-align: center;
 }
 
+#wrapper {
+    height: 550px;
+    width: 1425px;
+}
+
 /* Block dividers */
 
 .block-divider {
@@ -375,41 +380,28 @@ hr {
     /* Class Categories */
 
     .cardio-class {
-        height: 65vh;
-        background: url("../images/spin.jpeg") no-repeat center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        background: url("../images/spin.jpeg"); 
+        
         background-size: cover;
-
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        position: relative; 
+        background-repeat: no-repeat no-repeat;
+        height: 100%;
     }
 
     .strength-class {
-        height: 65vh;
-        background: url("../images/pump-class.jpeg") no-repeat center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        
+        background-image: url("../images/pump-class.jpeg") ; 
+        
         background-size: cover;
+        background-repeat: no-repeat no-repeat;
+        height: 100%;
+    }
 
-        background-repeat: no-repeat;
+    .mind-body-class {
+        background-image: url("../images/meditation-class.jpg");
+   
         background-size: cover;
-        background-position: center;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        position: relative; 
+        background-repeat: no-repeat no-repeat;
+        height: 100%;
     }
 
     .cardio-class-bg {
@@ -418,6 +410,10 @@ hr {
 
     .strength-class-bg {
         background-color: #00308f;
+    }
+
+    .mind-body-class-bg {
+        background-color: #14FFB0;
     }
 
     .section-heading-cardio {
@@ -442,6 +438,20 @@ hr {
     }
 
     .strength-section {
+        text-align: center;
+        color: #fafafa;
+        font-size: 18px;
+        padding: 30px;
+    }
+
+    .section-heading-mind-body {
+        color: #c9ffe5;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .mind-body-section {
         text-align: center;
         color: #fafafa;
         font-size: 18px;
