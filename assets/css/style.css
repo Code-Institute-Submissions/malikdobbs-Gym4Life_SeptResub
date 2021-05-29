@@ -58,20 +58,8 @@ body {
     z-index: -1;
 }
 
-.class-categories {
-   top: 50%;
-   right: 50%;
-  margin: auto;
-   
-}
-
 .text-center {
     text-align: center;
-}
-
-#wrapper {
-    height: 550px;
-    width: 1425px;
 }
 
 /* Block dividers */
@@ -98,7 +86,7 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: #fffff0;
+    background-color: black;
     position: fixed; /* Set the navbar to fixed position */
     top: 0;
     z-index: 3;
@@ -119,7 +107,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #212529;
+    color: #fffff0;
 }
 
 .navbar-dark .navbar-brand {
@@ -174,6 +162,43 @@ body {
     border-radius: 0;
     background-color: #0b693d;
     border-color: #0b693d;
+    border-radius: 12px;
+}
+
+.btn--cardio {
+    color: #212529;
+    border-radius: 0;
+    background-color: #ff4c4c;
+    border-color: #ff4c4c;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+.btn--strength {
+    color: #c9ffe5;
+    border-radius: 0;
+    background-color: #00308f;
+    border-color: #00308f;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+.btn--mind--body {
+    color: #c9ffe5;
+    border-radius: 0;
+    background-color: #14FFB0;
+    border-color: #14FFB0;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+.btn--fight {
+    color: #fffff0;
+    border-radius: 0;
+    background-color: #869697;
+    border-color: #869697;
+    border: 1px solid;
+    border-radius: 12px;
 }
 
 .btn--green:hover,
@@ -184,6 +209,55 @@ body {
     background-color: #212529;
     border-color: #212529;
 }
+
+.btn--cardio:hover,
+.btn--cardio:active,
+.btn--cardio:focus,
+.btn--cardio:active:focus {
+    color: #0b693d;
+    border-radius: 0;
+    background-color: #212529;
+    border-color: #212529;
+    border: 2px solid;
+    border-radius: 12px;
+}
+
+.btn--strength:hover,
+.btn--strength:active,
+.btn--strength:focus,
+.btn--strength:active:focus {
+    color: #0b693d;
+    border-radius: 0;
+    background-color: #212529;
+    border-color: #212529;
+    border: 2px solid;
+    border-radius: 12px;
+}
+
+.btn--mind--body:hover,
+.btn--mind--body:active,
+.btn--mind--body:focus,
+.btn--mind--body:active:focus {
+    color: #0b693d;
+    border-radius: 0;
+    background-color: #212529;
+    border-color: #212529;
+    border: 2px solid;
+    border-radius: 12px;
+}
+
+.btn--fight:hover,
+.btn--fight:active,
+.btn--fight:focus,
+.btn--fight:active:focus {
+    color: #0b693d;
+    border-radius: 0;
+    background-color: #212529;
+    border-color: #212529;
+    border: 2px solid;
+    border-radius: 12px;
+}
+
 
 .btn--header {
     margin-right: 5px;
@@ -379,6 +453,19 @@ hr {
 
     /* Class Categories */
 
+    #wrapper {
+        height: 550px;
+        width: 1425px;
+    }
+
+    .class-categories {
+        top: 50%;
+        right: 50%;
+        margin: auto;
+        padding: 5px 260px;
+        
+     }
+
     .cardio-class {
         background: url("../images/spin.jpeg"); 
         
@@ -451,7 +538,7 @@ hr {
 
     .strength-section {
         text-align: center;
-        color: #fafafa;
+        color: #fffff0;
         font-size: 18px;
         padding: 30px;
     }
@@ -465,13 +552,13 @@ hr {
 
     .mind-body-section {
         text-align: center;
-        color: #fafafa;
+        color: #fffff0;
         font-size: 18px;
         padding: 30px;
     }
 
     .section-heading-fight {
-        color: #fafafa;
+        color: #fffff0;
         font-family: 'Roboto', sans-serif;
         font-size: 40px;
         padding-top: 20px;
@@ -479,7 +566,7 @@ hr {
 
     .fight-section {
         text-align: center;
-        color: #fafafa;
+        color: #fffff0;
         font-size: 18px;
         padding: 30px;
     }
@@ -487,14 +574,14 @@ hr {
     /* Footer */
 
     footer {
-        background-color: #fffff0;
-        color: #212529;
+        background-color: black;
+        color: #fffff0;
         min-height: 120px;
         margin: 0;
     }
 
     .footer-links {
-        color: #212529;
+        color: #fffff0;
         text-decoration: none;
     }
 
