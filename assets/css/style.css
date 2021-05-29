@@ -393,12 +393,59 @@ hr {
         position: relative; 
     }
 
+    .strength-class {
+        height: 65vh;
+        background: url("../images/pump-class.jpeg") no-repeat center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative; 
+    }
+
     .cardio-class-bg {
         background-color: #ff4c4c;
     }
 
     .strength-class-bg {
         background-color: #00308f;
+    }
+
+    .section-heading-cardio {
+       color: #212529;
+       font-family: 'Roboto', sans-serif;
+       font-size: 40px;
+       padding-top: 20px;
+    }
+
+    .cardio-section {
+        text-align: center;
+        color: #212529;
+        font-size: 18px;
+        padding: 30px;
+    }
+
+    .section-heading-strength {
+        color: #c9ffe5;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .strength-section {
+        text-align: center;
+        color: #fafafa;
+        font-size: 18px;
+        padding: 30px;
     }
 
     /* Footer */
