@@ -566,6 +566,15 @@ hr {
         padding: 30px;
     }
 
+    .cardio-title {
+        text-transform: uppercase;
+        font-size: 55px;
+        margin-top: 90px;
+        color: #fffff0;
+        font-family: 'Roboto', sans-serif;
+        position: absolute;
+    }
+
     /* Footer */
 
     footer {
