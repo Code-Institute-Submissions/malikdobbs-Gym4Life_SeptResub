@@ -93,6 +93,11 @@ p {
     z-index: 3;
 }
 
+.nav-drop-down-bg {
+    background-color: black;
+    color: #fffff0;
+}
+
 .navbar .navbar-toggler {
     border: 0;
 }
@@ -105,6 +110,7 @@ p {
 
 .navbar-dark .navbar-nav a {
     font-weight: bold;
+    color: #fffff0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -122,6 +128,11 @@ p {
 }
 
 .navbar-dark .navbar-brand:hover {
+    color: #af002a;
+}
+
+.navbar-dark .navbar-nav a:hover {
+    background-color: black;
     color: #af002a;
 }
 
