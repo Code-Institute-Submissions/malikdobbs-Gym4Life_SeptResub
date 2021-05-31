@@ -577,7 +577,7 @@ hr {
 
     /* Types of Classes (Cardio/Strength/Mind & Body/ Fight) */
     .classes {
-        border: 3px solid #0b693d;
+        border: 2px solid #0b693d;
         border-radius: 14px;
         background-color: black;
         color: #fffff0;
@@ -585,7 +585,7 @@ hr {
     }
 
     .underline {
-        text-decoration: 3px underline #0b693d;
+        text-decoration: 2px underline #0b693d;
     }
 
     /* Footer */
