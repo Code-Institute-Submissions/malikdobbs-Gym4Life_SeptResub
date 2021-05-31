@@ -110,17 +110,17 @@ p {
 }
 
 .navbar-dark .navbar-brand {
-    color: #0b693d;
+    color: #af002a;
     padding: 0 5px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #0b693d;
+    color: #af002a;
     
 }
 
 .navbar-dark .navbar-brand:hover {
-    color: #0b693d;
+    color: #af002a;
 }
 
 /* Jumbotron */
@@ -158,8 +158,8 @@ p {
 
 .btn--green {
     color: #212529;
-    background-color: #0b693d;
-    border-color: #0b693d;
+    background-color: #af002a;
+    border-color: #af002a;
     border-radius: 14px;
 }
 
@@ -199,19 +199,18 @@ p {
 .btn--green:active,
 .btn--green:focus,
 .btn--green:active:focus {
-    color: #0b693d;
-    background-color: #212529;
-    border-color: #212529;
+    color: #af002a;
+    background-color: black;
+    border-color: black;
 }
 
 .btn--cardio:hover,
 .btn--cardio:active,
 .btn--cardio:focus,
 .btn--cardio:active:focus {
-    color: #0b693d;
-    background-color: #212529;
-    border-color: #212529;
-    border: 2px solid;
+    color: #af002a;
+    background-color: black;
+    border: 2px solid black;
     border-radius: 14px;
 }
 
@@ -219,10 +218,9 @@ p {
 .btn--strength:active,
 .btn--strength:focus,
 .btn--strength:active:focus {
-    color: #0b693d;
-    background-color: #212529;
-    border-color: #212529;
-    border: 2px solid;
+    color: #af002a;
+    background-color: black;
+    border: 2px solid black;
     border-radius: 14px;
 }
 
@@ -230,11 +228,10 @@ p {
 .btn--mind--body:active,
 .btn--mind--body:focus,
 .btn--mind--body:active:focus {
-    color: #0b693d;
+    color: #af002a;
     border-radius: 0;
-    background-color: #212529;
-    border-color: #212529;
-    border: 2px solid;
+    background-color: black;
+    border: 2px solid black;
     border-radius: 12px;
 }
 
@@ -242,10 +239,9 @@ p {
 .btn--fight:active,
 .btn--fight:focus,
 .btn--fight:active:focus {
-    color: #0b693d;
-    background-color: #212529;
-    border-color: #212529;
-    border: 2px solid;
+    color: #af002a;
+    background-color: black;
+    border: 2px solid black;
     border-radius: 14px;
 }
 
@@ -278,7 +274,7 @@ p {
 #welcome {
     margin: 20px 0;
     text-align: left;
-    color: #0b693d;
+    color: #af002a;
     padding-left: 15px;
 }
 
@@ -300,7 +296,7 @@ p {
 }
 
 hr {
-    border: 2px solid #0b693d;
+    border: 2px solid #af002a;
     width: 100%;
     margin: 5px 0;
 }
@@ -356,7 +352,7 @@ hr {
     height: 250px;
     padding: 30px;
     border-style: solid;
-    border-color: #0b693d;
+    border-color: #af002a;
     border-width: 0;
     border-radius: 50%;
     margin: 0 auto;
@@ -577,7 +573,7 @@ hr {
 
     /* Types of Classes (Cardio/Strength/Mind & Body/ Fight) */
     .classes {
-        border: 2px solid #0b693d;
+        border: 2px solid #af002a;
         border-radius: 14px;
         background-color: black;
         color: #fffff0;
@@ -585,7 +581,7 @@ hr {
     }
 
     .underline {
-        text-decoration: 2px underline #0b693d;
+        text-decoration: 2px underline #af002a;
     }
 
     /* Footer */
@@ -604,7 +600,7 @@ hr {
     }
 
     a:hover {
-        color: #0b693d; 
+        color: #af002a; 
     }
     
     .social-links {
@@ -620,7 +616,7 @@ hr {
         line-height: 7px;
         text-align: center;
         color: #212529;
-        background: #0b693d;
+        background: #af002a;
         transition: all 0.35s ease-in-out;
         -moz-transition: all 0.35s ease-in-out;
         -webkit-transition: all 0.35s ease-in-out;
@@ -629,7 +625,7 @@ hr {
     
     .social-links li a i:hover {
         background-color: #212529;
-        color: #0b693d;
+        color: #af002a;
     }
     
     #footer-details {
