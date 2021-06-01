@@ -686,6 +686,11 @@ hr {
         z-index: 1;
     }
 
+    .membership-heading {
+        color: #fffff0;
+        padding-left: .5em;
+    }
+
     /* Footer */
 
     footer {
