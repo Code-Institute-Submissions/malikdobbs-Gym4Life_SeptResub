@@ -668,13 +668,12 @@ hr {
 
     .membership-header {
         height: 90vh;
-        width: 100%;
-        background: url("../images/membership.jpeg") no-repeat center right fixed; 
+        background: url("../images/membership-image.jpeg") no-repeat center center fixed; 
         background-color: rgba(0, 0, 0, .5);
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
+        background-size: contain;
     
         min-height: 360px;
         transition: all .5s ease-in-out;
