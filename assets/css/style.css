@@ -11,7 +11,7 @@ p {
 
 .welcome-container {
     height: 90vh;
-    background: url("../images/dumbell-guy.jpg") no-repeat center right fixed; 
+    background: url("../images/dumbell-guy.jpg") no-repeat center right scroll; 
     background-color: rgba(0, 0, 0, .5);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -38,7 +38,7 @@ p {
 
 .hero-image {
     height: 100%;
-    background: url("../images/group-plank.jpg") no-repeat center right fixed; 
+    background: url("../images/group-plank.jpg") no-repeat center right scroll; 
     background-size: cover;
     background-color: rgba(0, 0, 0, .5);
     display: flex;
@@ -601,7 +601,7 @@ hr {
 
     .contact-us-header {
         height: 90vh;
-        background: url("../images/contact-us.jpg") no-repeat center right fixed; 
+        background: url("../images/contact-us.jpg") no-repeat center right scroll; 
         background-color: rgba(0, 0, 0, .5);
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -668,7 +668,7 @@ hr {
 
     .membership-header {
         height: 90vh;
-        background: url("../images/membership-image.jpeg") no-repeat center center fixed; 
+        background: url("../images/membership-image.jpeg") no-repeat center center scroll; 
         background-color: rgba(0, 0, 0, .5);
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -699,7 +699,7 @@ hr {
 
     .personal-training-header {
         height: 90vh;
-        background: url("../images/pt-trainer.jpg") no-repeat center center fixed; 
+        background: url("../images/pt-trainer.jpg") no-repeat center center scroll; 
         background-color: rgba(0, 0, 0, .5);
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -715,6 +715,33 @@ hr {
     
         position: relative;
         z-index: 1;
+    }
+
+    .about-training {
+        background: url("../images/personal-trainer.jpg") no-repeat center center scroll;
+        height: 60vh;
+        background-color: rgba(0, 0, 0, .5);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        min-height: 360px;
+        transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+    
+        display: flex;
+    
+        position: relative;
+        z-index: 1;
+    }
+
+    .about-personal-trainers {
+        border: 2px solid #af002a;
+        background-color: black;
+        color: #fffff0;
+        padding: 1.2em;
     }
 
     /* Footer */
