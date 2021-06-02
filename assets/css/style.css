@@ -695,6 +695,28 @@ hr {
         width: 70%;
     }
 
+    /* Personal Training */
+
+    .personal-training-header {
+        height: 90vh;
+        background: url("../images/pt-trainer.jpg") no-repeat center center fixed; 
+        background-color: rgba(0, 0, 0, .5);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        min-height: 360px;
+        transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+    
+        display: flex;
+    
+        position: relative;
+        z-index: 1;
+    }
+
     /* Footer */
 
     footer {
