@@ -668,6 +668,7 @@ hr {
 
     .membership-header {
         height: 90vh;
+        width: 100%;
         background: url("../images/membership.jpeg") no-repeat center right fixed; 
         background-color: rgba(0, 0, 0, .5);
         -webkit-background-size: cover;
@@ -688,7 +689,11 @@ hr {
 
     .membership-heading {
         color: #fffff0;
-        padding-left: .5em;
+        text-align: center;
+    }
+
+    .membership-section {
+        width: 70%;
     }
 
     /* Footer */
