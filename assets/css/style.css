@@ -720,7 +720,6 @@ hr {
     .about-training {
         background: url("../images/personal-trainer.jpg") no-repeat center center scroll;
         height: 60vh;
-        background-color: rgba(0, 0, 0, .5);
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -734,14 +733,32 @@ hr {
         display: flex;
     
         position: relative;
-        z-index: 1;
     }
 
     .about-personal-trainers {
+        height: 60vh;
         border: 2px solid #af002a;
         background-color: black;
         color: #fffff0;
         padding: 1.2em;
+    }
+
+    .why-training {
+        background: url("../images/personal-training.jpg") no-repeat center center scroll;
+        height: 60vh;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        min-height: 360px;
+        transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+    
+        display: flex;
+    
+        position: relative;
     }
 
     /* Footer */
