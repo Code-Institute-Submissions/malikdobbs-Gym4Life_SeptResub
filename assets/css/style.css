@@ -461,7 +461,7 @@ hr {
     */
 
     .classes-hero-image {
-        height: 90vh;
+        height: 80vh;
         background: url("../images/group-plank.jpg") no-repeat center center scroll; 
         background-size: cover;
         background-color: rgba(0, 0, 0, .5);
@@ -480,7 +480,9 @@ hr {
     .cardio-class {
         background: url("../images/spin.jpeg") no-repeat center center scroll;
         background-size: cover;
-        height: 100%;
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
     }
 
     .strength-class {
