@@ -194,7 +194,7 @@ p {
 }
 
 .btn--mind--body {
-    color: #c9ffe5;
+    color: #8cb0b5;
     background-color: #14FFB0;
     border-color: #14FFB0;
     border: 1px solid;
@@ -286,7 +286,7 @@ p {
 #welcome {
     margin: 20px 0;
     text-align: left;
-    color: #af002a;
+    color: #fffff0;
     padding-left: 15px;
 }
 
@@ -453,12 +453,6 @@ hr {
     }
 
     /* Class Categories */
-    /*
-    #wrapper {
-        height: 550px;
-        width: 1425px;
-    }
-    */
 
     .classes-hero-image {
         height: 80vh;
@@ -485,11 +479,25 @@ hr {
         overflow: hidden;
     }
 
+    .cardio-class-sub-section {
+        background: url("../images/spin.jpeg") no-repeat center center scroll;
+        background-size: cover;
+        height: 60vh;
+        overflow: hidden;
+    }
+
     .strength-class {
         background: url("../images/pump-class.jpg") no-repeat center center scroll; 
         background-size: cover;
         height: 90vh;
         width: 100%;
+        overflow: hidden;
+    }
+
+    .strength-class-sub-section {
+        background: url("../images/pump-class.jpg") no-repeat center center scroll; 
+        background-size: cover;
+        height: 60vh;
         overflow: hidden;
     }
 
@@ -501,11 +509,25 @@ hr {
         overflow: hidden;
     }
 
+    .mind-body-class-sub-section {
+        background: url("../images/mind-body-class.jpg") no-repeat center center scroll;
+        background-size: cover;
+        height: 60vh;
+        overflow: hidden;
+    }
+
     .fight-class {
         background: url("../images/boxing-girl.jpg") no-repeat center center;
         background-size: cover;
         height: 90vh;
         width: 100%;
+        overflow: hidden;
+    }
+
+    .fight-class-sub-section {
+        background: url("../images/boxing-girl.jpg") no-repeat center center;
+        background-size: cover;
+        height: 60vh;
         overflow: hidden;
     }
 
@@ -562,7 +584,7 @@ hr {
 
     .mind-body-section {
         text-align: center;
-        color: #fffff0;
+        color: #8cb0b5;
         font-size: 18px;
         padding: 30px;
     }
@@ -827,11 +849,6 @@ hr {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-    }
-
-    #welcome{
-        padding: 30px 0;
-        margin-top: 0;
     }
 
     #left-about, #right-about{
