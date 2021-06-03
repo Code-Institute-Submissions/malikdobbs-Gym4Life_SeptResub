@@ -381,9 +381,7 @@ hr {
 
 #classes-image {
     background: url("../images/group-plank.jpg") no-repeat center center;
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     height: 50vh;
     width: 100%;
     overflow: hidden;
@@ -498,9 +496,11 @@ hr {
     }
 
     .fight-class {
-        background-image: url("../images/boxing-girl.jpg") no-repeat center center scroll;
+        background: url("../images/boxing-girl.jpg") no-repeat center center;
         background-size: cover;
-        height: 100%;
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
     }
 
     .cardio-class-bg {
