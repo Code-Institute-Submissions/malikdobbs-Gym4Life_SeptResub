@@ -794,6 +794,28 @@ hr {
         padding: 0.5em;
     }
 
+    /* About Us */
+
+    .about-us-header {
+        height: 90vh;
+        background: url("../images/about-us-banner.JPG") no-repeat center center scroll; 
+        background-color: rgba(0, 0, 0, .5);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: contain;
+    
+        min-height: 360px;
+        transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+    
+        display: flex;
+    
+        position: relative;
+        z-index: 1;
+    }
+
     /* Footer */
 
     footer {
