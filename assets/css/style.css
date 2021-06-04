@@ -766,6 +766,11 @@ hr {
         position: relative;
     }
 
+    .about-us-section {
+        padding: 1.2em;
+        color: #fffff0;
+    }
+
     /* Footer */
 
     footer {
