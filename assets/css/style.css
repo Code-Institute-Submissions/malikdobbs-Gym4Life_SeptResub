@@ -771,6 +771,15 @@ hr {
         color: #fffff0;
     }
 
+    .core-values-bg {
+        background-color: #af002a;
+    }
+
+    .customer-service {
+        color: #fffff0;
+        font-size: 1.5em;
+    }
+
     /* Footer */
 
     footer {
