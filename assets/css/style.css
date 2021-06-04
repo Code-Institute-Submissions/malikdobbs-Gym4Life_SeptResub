@@ -890,11 +890,6 @@ hr {
         text-align: center;
         padding: 0px 20px;
     }
-
-    #photo{
-        column-count: 3;
-    }
-
 }
 
 /* for small screens sizes from 800px wide and down */
