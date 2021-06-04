@@ -816,6 +816,17 @@ hr {
         z-index: 1;
     }
 
+    .about-us-heading {
+        color: #fffff0;
+        text-align: center;
+    }
+
+    .center-logo {
+        text-align: center;
+        padding: 5em;
+        color: #af002a;
+    }
+
     /* Footer */
 
     footer {
