@@ -751,6 +751,20 @@ hr {
     .about-trainers-section {
         padding: 0.5em;
     }
+    
+    /* About Us */
+
+    .about-us-header {
+        background: url("../images/about-us-banner.JPG") no-repeat center center scroll;
+        height: 90vh;
+        background-size: contain;
+    
+        min-height: 360px;
+    
+        display: flex;
+    
+        position: relative;
+    }
 
     /* Footer */
 
