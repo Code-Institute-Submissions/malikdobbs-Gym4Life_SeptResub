@@ -796,6 +796,12 @@ hr {
 
     /* About Us */
 
+    .about-us {
+        padding: 3em;
+        color: #fffff0;
+        line-height: 1em;
+    }
+
     .about-us-header {
         height: 90vh;
         background: url("../images/about-us-banner.JPG") no-repeat center center scroll; 
