@@ -12,15 +12,9 @@ p {
 .welcome-container {
     height: 90vh;
     background: url("../images/dumbell-guy.jpg") no-repeat center right scroll; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 
     min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
 
     display: flex;
     align-items: center;
@@ -165,14 +159,12 @@ p {
 .btn--green {
     color: #212529;
     background-color: #af002a;
-    border-color: #af002a;
     border-radius: 14px;
 }
 
 .btn--cardio {
     color: #212529;
     background-color: #ff4c4c;
-    border-color: #ff4c4c;
     border: 1px solid;
     border-radius: 14px;
 }
@@ -180,7 +172,6 @@ p {
 .btn--strength {
     color: #c9ffe5;
     background-color: #00308f;
-    border-color: #00308f;
     border: 1px solid;
     border-radius: 14px;
 }
@@ -188,7 +179,6 @@ p {
 .btn--mind--body {
     color: #8cb0b5;
     background-color: #14FFB0;
-    border-color: #14FFB0;
     border: 1px solid;
     border-radius: 14px;
 }
@@ -196,7 +186,6 @@ p {
 .btn--fight {
     color: #fffff0;
     background-color: #869697;
-    border-color: #869697;
     border: 1px solid;
     border-radius: 14px;
 }
@@ -207,7 +196,6 @@ p {
 .btn--green:active:focus {
     color: #212529;
     background-color: #dc2a52;
-    border-color: #dc2a52;
 }
 
 .btn--cardio:hover,
@@ -216,7 +204,7 @@ p {
 .btn--cardio:active:focus {
     color: #ff4c4c;
     background-color: black;
-    border: 2px solid black;
+    border: 2px solid;
     border-radius: 14px;
 }
 
@@ -226,7 +214,7 @@ p {
 .btn--strength:active:focus {
     color: #00308f;
     background-color: #c9ffe5;
-    border: 2px solid #c9ffe5;
+    border: 2px solid;
     border-radius: 14px;
 }
 
@@ -236,7 +224,7 @@ p {
 .btn--mind--body:active:focus {
     color: #14FFB0;
     background-color: #8cb0b5;
-    border: 2px solid #8cb0b5;
+    border: 2px solid;
     border-radius: 14px;
 }
 
@@ -246,7 +234,7 @@ p {
 .btn--fight:active:focus {
     color: #869697;
     background-color: #fffff0;
-    border: 2px solid #fffff0;
+    border: 2px solid;
     border-radius: 14px;
 }
 
@@ -623,7 +611,7 @@ hr {
     }
 
     .underline {
-        text-decoration: 2px underline #af002a;
+        text-decoration: #af002a underline;
     }
 
     /* Contact Us */
@@ -632,15 +620,9 @@ hr {
         height: 90vh;
         background: url("../images/contact-us.jpg") no-repeat center right scroll; 
         background-color: rgba(0, 0, 0, .5);
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
         background-size: cover;
     
         min-height: 360px;
-        transition: all .5s ease-in-out;
-        -moz-transition: all .5s ease-in-out;
-        -webkit-transition: all .5s ease-in-out;
     
         display: flex;
     
@@ -699,15 +681,9 @@ hr {
         height: 90vh;
         background: url("../images/membership-image.jpeg") no-repeat center center scroll; 
         background-color: rgba(0, 0, 0, .5);
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
         background-size: contain;
     
         min-height: 360px;
-        transition: all .5s ease-in-out;
-        -moz-transition: all .5s ease-in-out;
-        -webkit-transition: all .5s ease-in-out;
     
         display: flex;
     
@@ -730,15 +706,9 @@ hr {
         height: 90vh;
         background: url("../images/pt-trainer.jpg") no-repeat center center scroll; 
         background-color: rgba(0, 0, 0, .5);
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
         background-size: cover;
     
         min-height: 360px;
-        transition: all .5s ease-in-out;
-        -moz-transition: all .5s ease-in-out;
-        -webkit-transition: all .5s ease-in-out;
     
         display: flex;
     
@@ -748,16 +718,10 @@ hr {
 
     .about-training {
         background: url("../images/personal-trainer.jpg") no-repeat center center scroll;
-        height: 60vh;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
         background-size: cover;
+        height: 60vh;
     
         min-height: 360px;
-        transition: all .5s ease-in-out;
-        -moz-transition: all .5s ease-in-out;
-        -webkit-transition: all .5s ease-in-out;
     
         display: flex;
     
@@ -775,15 +739,9 @@ hr {
     .why-training {
         background: url("../images/personal-training.jpg") no-repeat center center scroll;
         height: 60vh;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
         background-size: cover;
     
         min-height: 360px;
-        transition: all .5s ease-in-out;
-        -moz-transition: all .5s ease-in-out;
-        -webkit-transition: all .5s ease-in-out;
     
         display: flex;
     
@@ -792,45 +750,6 @@ hr {
 
     .about-trainers-section {
         padding: 0.5em;
-    }
-
-    /* About Us */
-
-    .about-us {
-        padding: 3em;
-        color: #fffff0;
-        line-height: 1em;
-    }
-
-    .about-us-header {
-        height: 90vh;
-        background: url("../images/about-us-banner.JPG") no-repeat center center scroll; 
-        background-color: rgba(0, 0, 0, .5);
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: contain;
-    
-        min-height: 360px;
-        transition: all .5s ease-in-out;
-        -moz-transition: all .5s ease-in-out;
-        -webkit-transition: all .5s ease-in-out;
-    
-        display: flex;
-    
-        position: relative;
-        z-index: 1;
-    }
-
-    .about-us-heading {
-        color: #fffff0;
-        text-align: center;
-    }
-
-    .center-logo {
-        text-align: center;
-        padding: 5em;
-        color: #af002a;
     }
 
     /* Footer */
@@ -866,10 +785,6 @@ hr {
         text-align: center;
         color: #212529;
         background: #af002a;
-        transition: all 0.35s ease-in-out;
-        -moz-transition: all 0.35s ease-in-out;
-        -webkit-transition: all 0.35s ease-in-out;
-        -o-transition: all 0.35s ease-in-out;
     }
     
     .social-links li a i:hover {
@@ -954,7 +869,7 @@ hr {
 
     .left-about-heading p, .right-about-heading p, .right-about-heading-lower p{
         text-align: center;
-        padding: 0 20 0 20;
+        padding: 0px 20px;
     }
 
     #photo{
