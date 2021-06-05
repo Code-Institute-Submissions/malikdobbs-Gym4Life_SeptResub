@@ -32,9 +32,9 @@ This is the promotional website for Gym4Life. It is designed to be viewed and us
                 - The images used on the website are important factor. The background hero image aims to catch your attention. It makes the page aesthetic and pleasing to look at for the user.
 
             ### Wireframes
-                [Index page wiref<img width="945" alt=" index-wireframe" src="https://user-images.githubusercontent.com/79936079/120879648-d7cd1f80-c5bc-11eb-8b4a-fa103641a143.png">
-rame](../images/index-wireframe.png)
-                [Classes page wireframe](../images/classes-wire<img width="788" alt="classes-wireframe" src="https://user-images.githubusercontent.com/79936079/120879680-0a771800-c5bd-11eb-8211-cb2aab9959b3.png">
+                [Index page wireframe](../images/index-wireframe.png)
+                [Classes page wireframe](../images/class<img width="945" alt=" index-wireframe" src="https://user-images.githubusercontent.com/79936079/120879824-0dbed380-c5be-11eb-8d4b-de53684bcea0.png">
+es-wire<img width="788" alt="classes-wireframe" src="https://user-images.githubusercontent.com/79936079/120879680-0a771800-c5bd-11eb-8211-cb2aab9959b3.png">
 frame.png)
                 [Cardio Classes page wireframe](../images<img width="793" alt="cardio-wireframe" src="https://user-images.githubusercontent.com/79936079/120879688-14991680-c5bd-11eb-8ca5-9f7c0f095b76.png">
 /cardio-wireframe.png)
