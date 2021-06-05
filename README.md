@@ -33,20 +33,16 @@ This is the promotional website for Gym4Life. It is designed to be viewed and us
 -            The images used on the website are important factor. The background hero image aims to catch your attention. It makes the page aesthetic and pleasing to look at for the user.
 
 ### Wireframes
-<img width="945" alt=" index-wireframe" src="https://user-images.githubusercontent.com/79936079/120879920-bff69b00-c5be-11eb-9bc8-53135751f9a7.png">.
-ndex page wireframe](../images/index-wireframe.png)
-<img width="945" alt=" index-wireframe" src="https://user-images.githubusercontent.com/79936079/120879824-0dbed380-c5be-11eb-8d4b-de53684bcea0.png">es-wire<img width="788" alt="classes-wireframe" src="https://user-images.githubusercontent.com/79936079120879680-0a771800-c5bd-11eb-8211-cb2aab9959b3.png">
+<img width="945" alt=" index-wireframe" src="https://user-images.githubusercontent.com/79936079/120879920-bff69b00-c5be-11eb-9bc8-53135751f9a7.png">
+<img width="945" alt=" index-wireframe" src="https://user-images.githubusercontent.com/79936079/120879824-0dbed380-c5be-11eb-8d4b-de53684bcea0.png">
 <img width="793" alt="cardio-wireframe" src="https://user-images.githubusercontent.com/79936079/120879688-14991680-c5bd-11eb-8ca5-9f7c0f095b76.png">
 <img width="792" alt="strength-wireframe" src="https://user-images.githubusercontent.com/79936079/120879696-237fc900-c5bd-11eb-8d51-1693ef708c5c.png">
 <img width="791" alt="mind-body-wireframe" src="https://user-images.githubusercontent.com/79936079/120879700-2d093100-c5bd-11eb-8b23-c60301dddd47.png">
 <img width="791" alt="fight-wireframe" src="https://user-images.githubusercontent.com/79936079/120879704-34c8d580-c5bd-11eb-9958-c62266b00c97.png">
-es-fight-wireframe.png)
 <img width="725" alt="membership-wireframe" src="https://user-images.githubusercontent.com/79936079/120879710-3befe380-c5bd-11eb-9731-e5aa72e7d534.png">
 <img width="763" alt="personal-training-wireframe" src="https://user-images.githubusercontent.com/79936079/120879729-5b870c00-c5bd-11eb-8061-12839fd068c7.png">
 <img width="794" alt="about-us-wireframe" src="https://user-images.githubusercontent.com/79936079/120879786-bf113980-c5bd-11eb-94d0-5037fa2ace64.png">
-ploading about-us-wireframe.png…]
-[Contact Us page wireframe](../images/<img width="794" alt="contact-us-wireframe" src="https://user-images.githubusercontent.com/79936079/120879794-c89aa180-c5bd-11eb-9785-ae141b25b550.png">
-contact-us-wireframe.png)
+<img width="794" alt="contact-us-wireframe" src="https://user-images.githubusercontent.com/79936079/120879794-c89aa180-c5bd-11eb-9785-ae141b25b550.png">
 
 ## Features
 - Responsive on all devices.
