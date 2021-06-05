@@ -50,8 +50,6 @@ p {
     color: #fffff0;
 }
 
-/* Block dividers */
-
 .block-divider {
     width: 150px;
     border: 0;
@@ -69,13 +67,12 @@ p {
     width: 100px;
 }
 
-/* Navbar */
 .navbar {
     margin-bottom: 0;
     border: 1px solid #212529;
     width: 100%;
     background-color: black;
-    position: fixed; /* Set the navbar to fixed position */
+    position: fixed;
     top: 0;
     z-index: 3;
 }
@@ -123,7 +120,6 @@ p {
     color: #af002a;
 }
 
-/* Jumbotron */
 .jumbotron {
     background-color: transparent;
 }
@@ -150,7 +146,6 @@ p {
     color: #fffff0;
 }
 
-/* Buttons */
 .btn--cta {
     font-weight: bold;
     width: 190px;
@@ -247,8 +242,6 @@ p {
     float: left;
 }
 
-/* Cover Text */
-
 .cover-text  {
     text-transform: uppercase;
     font-size: 4em;
@@ -256,8 +249,6 @@ p {
     color: #fffff0;
     font-family: 'Roboto', sans-serif;
 }
-
-/* Covid Section */
 
 #covid-section {
     height: 600px;
@@ -337,8 +328,6 @@ hr {
     text-align: right;
 }
 
-/* Covid Image */
-
 #circle-container {
     width: 250px;
     height: 250px;
@@ -356,8 +345,6 @@ hr {
     margin-top: 160px;
     border-radius: 50%;
 }
-
-/* Gym info */
 
 #classes-image {
     background: url("../images/group-plank.jpg") no-repeat center center;
@@ -430,8 +417,6 @@ hr {
     .text {
         text-align: left;
     }
-
-    /* Class Categories */
 
     .classes-hero-image {
         height: 80vh;
@@ -601,7 +586,6 @@ hr {
         position: absolute;
     }
 
-    /* Types of Classes (Cardio/Strength/Mind & Body/ Fight) */
     .classes {
         border: 2px solid #af002a;
         border-radius: 14px;
@@ -613,8 +597,6 @@ hr {
     .underline {
         text-decoration: #af002a underline;
     }
-
-    /* Contact Us */
 
     .contact-us-header {
         height: 90vh;
@@ -675,8 +657,6 @@ hr {
         border-color: #af002a;
     }
 
-    /* Memberships */
-
     .membership-header {
         height: 90vh;
         background: url("../images/membership-image.jpeg") no-repeat center center scroll; 
@@ -700,8 +680,6 @@ hr {
         width: 70%;
         padding-left: 2em;
     }
-
-    /* Personal Training */
 
     .personal-training-header {
         height: 90vh;
@@ -752,8 +730,6 @@ hr {
     .about-trainers-section {
         padding: 0.5em;
     }
-    
-    /* About Us */
 
     .about-us-header {
         background: url("../images/about-us-banner.JPG") no-repeat center center scroll;
@@ -780,8 +756,6 @@ hr {
         color: #fffff0;
         font-size: 1.5em;
     }
-
-    /* Footer */
 
     footer {
         background-color: black;
@@ -825,8 +799,6 @@ hr {
         padding: 20px;
     }
 
-    /* Media queries */
-    /* for large to medium screen sizes. from 1200px wide and down */
 @media screen and (max-width: 1393px){
     
     .welcome-container {
@@ -867,7 +839,6 @@ hr {
     }
 }
 
-/* for medium screens sizes from 950px wide and down */
 @media screen and (max-width: 943px) {
     .navbar-brand{
         clear: left;
@@ -902,7 +873,6 @@ hr {
     }
 }
 
-/* for small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
     #photo{
         column-count: 2;
