@@ -89,7 +89,7 @@ contact-us-wireframe.png)
 
 ## Testing User Stories from User Experience (UX) section
 
-- ### First time visitor goals
+### First time visitor goals
 
 - As a first time visitor, I want to easily understand the main purpose of the website and learn about the organisation.
 
@@ -106,7 +106,7 @@ contact-us-wireframe.png)
         1. On the home page of this website you have information that informs you of the different services available in the gym like different gym classes, types of memberships and 1-2-1 personal training sessions available.
         2. The user can either use the navigation bar to access our wide array of different classes pages, memberships, about us sections and personal training section. Further down the page there are sections that have links to the classes home page, memberships and personal training web pages.
 
-- ## Returning visitor goals
+## Returning visitor goals
 
 - As a returning visitor, I want to see the types of classes available to attend.
 
@@ -117,7 +117,7 @@ contact-us-wireframe.png)
 
 1. At the bottom of the page there is a footer with links to the contact us web page which has the gym location, contact number and email address.
 
-- ## Frequent users goals
+## Frequent users goals
 
 -  As a frequent user, I want to sign up to newsletter so that I'm aware if there are any new updates on Gym4Life and aware of any promotions.
 1. There is currently no link or section where you can sign up to newsletter
