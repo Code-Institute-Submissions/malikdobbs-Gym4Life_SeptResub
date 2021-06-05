@@ -32,7 +32,8 @@ This is the promotional website for Gym4Life. It is designed to be viewed and us
                 - The images used on the website are important factor. The background hero image aims to catch your attention. It makes the page aesthetic and pleasing to look at for the user.
 
             ### Wireframes
-                [Index page wireframe](../images/index-wireframe.png)
+                [I<img width="945" alt=" index-wireframe" src="https://user-images.githubusercontent.com/79936079/120879913-a9e8da80-c5be-11eb-842e-300c7e0b6c29<img width="945" alt=" index-wireframe" src="https://user-images.githubusercontent.com/79936079/120879920-bff69b00-c5be-11eb-9bc8-53135751f9a7.png">.
+ndex page wireframe](../images/index-wireframe.png)
                 [Classes page wireframe](../images/class<img width="945" alt=" index-wireframe" src="https://user-images.githubusercontent.com/79936079/120879824-0dbed380-c5be-11eb-8d4b-de53684bcea0.png">
 es-wire<img width="788" alt="classes-wireframe" src="https://user-images.githubusercontent.com/79936079/120879680-0a771800-c5bd-11eb-8211-cb2aab9959b3.png">
 frame.png)
