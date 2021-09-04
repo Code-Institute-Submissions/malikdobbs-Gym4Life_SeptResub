@@ -152,7 +152,7 @@ p {
 }
 
 .btn--green {
-    color: #212529;
+    color: #fffff0;
     background-color: #af002a;
     border-radius: 14px;
 }
@@ -189,7 +189,7 @@ p {
 .btn--green:active,
 .btn--green:focus,
 .btn--green:active:focus {
-    color: #212529;
+    color: #fffff0;
     background-color: #dc2a52;
 }
 
