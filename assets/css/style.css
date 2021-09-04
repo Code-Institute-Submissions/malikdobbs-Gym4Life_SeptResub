@@ -786,13 +786,13 @@ hr {
         font-size: 20px;
         line-height: 7px;
         text-align: center;
-        color: #212529;
+        color: #fffff0;
         background: #af002a;
     }
     
     .social-links li a i:hover {
-        background-color: #212529;
-        color: #af002a;
+        background-color: #dc2a52;
+        color: #fffff0;
     }
     
     #footer-details {
